@@ -6,7 +6,7 @@ gem 'rails', '4.2.3'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 5.0'
+
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views
@@ -29,6 +29,11 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use Unicorn as the app server
 # gem 'unicorn'
 
+# FrontEnd Gems
+gem 'bootstrap-sass', '~> 3.3.2'
+gem 'sass-rails', '~> 5.0'
+gem 'simple_form'
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
@@ -43,3 +48,4 @@ group :development, :test do
   gem 'spring'
 end
 
+gem 'rspec-rails', group: [ :test ]
