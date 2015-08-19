@@ -4,6 +4,19 @@
  * Feel free to change them and create your own
  * ------------------------------------- */
 
+
+.header {
+  & h1 {
+    color: black;
+  }
+
+  & a:hover {
+    color: black;
+    text-decoration: none;
+  }
+}
+
+
 // Paddings
 .padded {
   padding-top: 5em;
@@ -22,4 +35,10 @@
 }
 .bg-facebook {
   background: #3b5998;
+}
+
+.header {
+  font-size: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }

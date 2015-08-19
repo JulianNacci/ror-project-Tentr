@@ -10,7 +10,16 @@
 </head>
 <body>
 
-<%= yield %>
+  <div class="col-xs-12 text-center header">
+    <%=link_to restaurants_path do %>
+    <h1><i class="fa fa-cutlery"></i> TENTR</h1>
+    <% end %>
+  </div>
 
+  <div class="bg">
+    <div class="container">
+    <%= yield %>
+    </div>
+  </div>
 </body>
 </html>

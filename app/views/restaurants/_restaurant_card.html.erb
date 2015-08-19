@@ -1,0 +1,15 @@
+<%= link_to(restaurant) do %>
+  <div class="card">
+    <span class="card-bg" style="background-image: url('http://lenouvelepicure.com/wp-content/uploads/2014/07/restaurant-le-reminet-paris-09-702x336.jpg')"></span>
+    <span class="card-shadow"></span>
+    <span class="card-description">Popular - <%= restaurant.reviews.length %> reviews</span>
+    <span class="card-text">
+      <h2><%= restaurant.name %></h2>
+      <p><%= restaurant.address %> - <%= restaurant.phone_number %></p>
+    </span>
+    <!-- <span class="card-user">
+      <img src='user.jpg' class="avatar avatar-bordered"/>
+    </span> -->
+<!--     <a href="#" class="card-link"></a> -->
+  </div>
+<% end %>

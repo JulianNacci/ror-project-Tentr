@@ -32,6 +32,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # FrontEnd Gems
 gem 'bootstrap-sass', '~> 3.3.2'
 gem 'sass-rails', '~> 5.0'
+gem 'font-awesome-sass', '~> 4.2.0'
 gem 'simple_form'
 
 # Use Capistrano for deployment
